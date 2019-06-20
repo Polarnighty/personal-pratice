@@ -1,3 +1,8 @@
+//修复了切换页面时的定时器bug
+document.addEventListener('visibilitychange', function (e) {
+  console.log(document.hidden)
+
+})
 var allButtons = $('#buttons > span')
 
 for (let i = 0; i < allButtons.length; i++) {
