@@ -32,7 +32,7 @@ function setTimer() {
     return setInterval(() => {
         n += 1
         allButtons.eq(n % size).trigger('click')
-    }, 4000)
+    }, 3000)
 }
 
 function activeButton($button) {
