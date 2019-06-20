@@ -1,6 +1,5 @@
-//修复了切换页面时的定时器bug
+//修复了切换页面时bug
 document.addEventListener('visibilitychange', function (e) {
-  console.log(document.hidden)
   if (document.hidden) {
     window.clearInterval(timerId)
   }
@@ -8,6 +7,7 @@ document.addEventListener('visibilitychange', function (e) {
     timerId = setTimer()
   }
 })
+
 var allButtons = $('#buttons > span')
 
 for (let i = 0; i < allButtons.length; i++) {

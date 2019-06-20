@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* Setting default text color, background and a font stack */
+    color:#444444;
+    font-size:13px;
+    background: #f2f2f2;
+    font-family:Arial, Helvetica, sans-serif;
+}   
+header{
+    text-align: center;
+}
+h1{
+    padding: 35px;
+}
+
+.gallery .slideswrap{
+    height:400px;
+    width: 920px;
+    overflow:hidden;
+    display: flex;
+    align-items: flex-start;
+}
+
+.gallery .slideswrap .slides{
+    display: flex;
+    align-items: flex-start;
+}
+.gallery{
+    -moz-box-shadow: 0 0 3px #AAAAAA;
+    -webkit-box-shadow: 0 0 3px #AAAAAA;
+    box-shadow: 0 0 3px #AAAAAA;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px solid white;
+    width: 920px;
+    margin: 0 auto;
+}
+
+.gallery .buttons{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+.gallery .buttons .default{
+    width: 60px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.gallery .buttons .default:hover{
+    width: 60px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;;
+}
+
