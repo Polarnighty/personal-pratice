@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <title>Apple-slide</title>
 </head>
 
 <body>
@@ -21,14 +22,14 @@
 </body>
 <div class="gallery">
     <div class="slideswrap">
-        <div class="slides">
+        <div class="slides" id="image">
             <img src="./img/imac.jpg" width="920" height="400">
             <img src="./img/iphone.jpg" width="920" height="400">
             <img src="./img/macbook.jpg" width="920" height="400">
             <img src="./img/info.jpg" width="920" height="400">
         </div>
     </div>
-    <div class="buttons">
+    <div class="buttons" id="buttons">
         <span class="default">
             <a href='javascript:;'><img src="./img/thumb_imac.png" alt=""></a>
         </span>
@@ -46,5 +47,6 @@
     </div>
 
 </div>
+<script src="./main.js"></script>
 
 </html>
