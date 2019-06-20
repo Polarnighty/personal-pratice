@@ -5,8 +5,7 @@ document.addEventListener('visibilitychange', function (e) {
     window.clearInterval(timerId)
   }
   else {
-    window.clearInterval(timerId)
-
+    timerId = setTimer()
   }
 })
 var allButtons = $('#buttons > span')

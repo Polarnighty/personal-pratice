@@ -32,8 +32,7 @@
     #image {
         display: flex;
         transition: all 0.5s;
-        position: relative;
-        
+       
     }
     
     #image>img {
