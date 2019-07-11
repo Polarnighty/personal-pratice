@@ -1,28 +1,28 @@
-!function(){
+!function () {
   var view = document.querySelector('#topNavBar')
 
   var controller = {
     view: null,
-    init: function(view){
+    init: function (view) {
       this.view = view
       this.bindEvents()
       // this.bindEvnets.call(this)
     },
-    bindEvents: function(){
+    bindEvents: function () {
       var view = this.view
       window.addEventListener('scroll', (x) => {
-        if(window.scrollY > 0){
+        if (window.scrollY > 0) {
           this.active()
-        }else{
+        } else {
           this.deactive()
         }
       })
       // 箭头函数没有 this
     },
-    active: function(){
+    active: function () {
       this.view.classList.add('sticky')
     },
-    deactive: function(){
+    deactive: function () {
       this.view.classList.remove('sticky')
     }
 
