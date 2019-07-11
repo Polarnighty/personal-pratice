@@ -11,7 +11,7 @@
             let li = document.createElement('li')
             li.innerText = `${item.name}:${item.content}`
             let messageList = document.querySelector('#messageList')
-            messageList.append(li)
+            messageList.append(li)         
         })
     })
 
@@ -30,7 +30,7 @@
         li.innerText = `${name}:${content}`
         let messageList = document.querySelector('#messageList')
         messageList.append(li)
-        
+        myForm.querySelector('input[name=content]').value=''
 
         /* 有bug
         query.find().then(function (message) {
