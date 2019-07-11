@@ -4,7 +4,6 @@
     Bmob.initialize("543cf60e54c97ee5245a4c93dbf8f606", "2ed036022d5273050b70002fecb3fd71");
 
     let myForm = document.querySelector('#postMessageForm')
-    /*
     const query = Bmob.Query("message")
     query.find().then(function (message) {
         let array = message.map((item) => item)
@@ -15,7 +14,6 @@
             messageList.append(li)
         })
     })
-    */
 
     myForm.addEventListener('submit', function (e) {
         e.preventDefault()
