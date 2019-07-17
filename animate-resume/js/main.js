@@ -28,7 +28,7 @@ function writeMarkdown(markdown, fn){
 }
 
 var css1 = `/* 
- * 面试官你好，我是XXX
+ * 面试官你好，我是陈林
  * 只用文字作做我介绍太单调了
  * 我就用代码来介绍吧
  * 首先准备一些样式
@@ -83,9 +83,8 @@ var css2 = `
 var md = `
 # 自我介绍
 
-我叫 XXX
-1990 年 1 月出生
-XXX 学校毕业
+我叫 陈林
+1996 年 10 月出生
 自学前端半年
 希望应聘前端开发岗位
 
@@ -95,57 +94,16 @@ XXX 学校毕业
 
 # 项目介绍
 
-1. XXX 轮播
-2. XXX 简历
-3. XXX 画板
+1. JS轮播
+2. 个人简历
+3. Canvas画板
 
 # 联系方式
 
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
+- QQ 1041465280@qq.com
+- Email 1041465280@qq.com
+- 手机 17362915306
 
-# 联系方式
-
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
-
-# 联系方式
-
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
-
-# 联系方式
-
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
-
-# 联系方式
-
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
-
-# 联系方式
-
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
-
-# 联系方式
-
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
-
-# 联系方式
-
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
 `
 let css3 = `
 /*
