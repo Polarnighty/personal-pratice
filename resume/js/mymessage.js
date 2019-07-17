@@ -32,18 +32,6 @@
         messageList.append(li)
         myForm.querySelector('input[name=content]').value=''
 
-        /* 有bug
-        query.find().then(function (message) {
-            console.log(message)
-            console.log(message.length)
-            console.log(message[message.length - 1].content)
-            let li = document.createElement('li')
-            li.innerText = `${message[message.length-1].name}:${message[message.length-1].content}`
-            let messageList = document.querySelector('#messageList')
-            messageList.append(li)
-        
-        })
-         */
 
     })
    
